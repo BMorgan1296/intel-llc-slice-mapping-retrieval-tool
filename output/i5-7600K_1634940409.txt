@@ -1,0 +1,387 @@
+Model: i5-7600K
+Cores: 4
+Time: 1634940409
+Total RAM: 16352632
+Physical Address Bits: 34
+
+L1 Info
+L1D Size: 32768
+L1D Associativity: 8
+L1D Cacheline: 64
+
+L2 Info
+L2 Size: 262144
+L2 Associativity: 4
+L2 Cacheline: 64
+
+L3 Info
+L3 Associativity: 12
+L3 Cacheline: 64
+------------------------------------------------
+Sequence length is 1 cache lines
+Bit: 06 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa00000 (00000000000)
+Bit: 07 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa000c0 (000000000c0)
+Bit: 08 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa00140 (00000000140)
+Bit: 09 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa00240 (00000000240)
+Bit: 10 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa00440 (00000000440)
+Bit: 11 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa00840 (00000000840)
+Bit: 12 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa01040 (00000001040)
+Bit: 13 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa02040 (00000002040)
+Bit: 14 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa04040 (00000004040)
+Bit: 15 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa08040 (00000008040)
+Bit: 16 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa10040 (00000010040)
+Bit: 17 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa20040 (00000020040)
+Bit: 18 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa40040 (00000040040)
+Bit: 19 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fa80040 (00000080040)
+Bit: 20 | 1/2 | 0x0010fa00040 (00000000040) | 0x0010fb00040 (00000100040)
+Bit: 06 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b600000 (00000200000)
+Bit: 07 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b6000c0 (000002000c0)
+Bit: 08 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b600140 (00000200140)
+Bit: 09 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b600240 (00000200240)
+Bit: 10 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b600440 (00000200440)
+Bit: 11 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b600840 (00000200840)
+Bit: 12 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b601040 (00000201040)
+Bit: 13 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b602040 (00000202040)
+Bit: 14 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b604040 (00000204040)
+Bit: 15 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b608040 (00000208040)
+Bit: 16 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b610040 (00000210040)
+Bit: 17 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b620040 (00000220040)
+Bit: 18 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b640040 (00000240040)
+Bit: 19 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b680040 (00000280040)
+Bit: 20 | 2/2 | 0x0016b600040 (00000200040) | 0x0016b700040 (00000300040)
+Bit: 32 | 1/2 | 0x0010fa00000 (00000000000) | 0x0000fa00000 (0001f800000)
+Bit: 26 | 1/2 | 0x0016b600000 (00000200000) | 0x0016f600000 (00000a00000)
+Bit: 23 | 1/2 | 0x0016b600000 (00000200000) | 0x0016be00000 (00002a00000)
+Bit: 27 | 1/2 | 0x0016b600000 (00000200000) | 0x00163600000 (000bd000000)
+Bit: 33 | 1/2 | 0x0016b600000 (00000200000) | 0x0036b600000 (000d9e00000)
+Bit: 26 | 2/2 | 0x0016ba00000 (00000400000) | 0x0016fa00000 (00000800000)
+Bit: 24 | 1/2 | 0x0016ba00000 (00000400000) | 0x0016aa00000 (00001000000)
+Bit: 25 | 1/2 | 0x0016ba00000 (00000400000) | 0x00169a00000 (00001e00000)
+Bit: 22 | 1/2 | 0x0016ba00000 (00000400000) | 0x0016be00000 (00002a00000)
+Bit: 32 | 2/2 | 0x0016ba00000 (00000400000) | 0x0006ba00000 (0001c400000)
+Bit: 25 | 2/2 | 0x0016fa00000 (00000800000) | 0x0016da00000 (00001800000)
+Bit: 27 | 2/2 | 0x0016fa00000 (00000800000) | 0x00167a00000 (00003400000)
+Bit: 21 | 1/2 | 0x0016ae00000 (00000e00000) | 0x0016ac00000 (00000600000)
+Bit: 22 | 2/2 | 0x0016ae00000 (00000e00000) | 0x0016aa00000 (00001000000)
+Bit: 24 | 2/2 | 0x0016ae00000 (00000e00000) | 0x0016be00000 (00002a00000)
+Bit: 31 | 1/2 | 0x0016ae00000 (00000e00000) | 0x001eae00000 (00039000000)
+Bit: 30 | 1/2 | 0x0016ae00000 (00000e00000) | 0x0012ae00000 (000b6a00000)
+Bit: 23 | 2/2 | 0x0016aa00000 (00001000000) | 0x0016a200000 (00001a00000)
+Bit: 21 | 2/2 | 0x0016aa00000 (00001000000) | 0x0016a800000 (00003000000)
+Bit: 33 | 2/2 | 0x0016aa00000 (00001000000) | 0x0036aa00000 (000d9c00000)
+Bit: 29 | 1/2 | 0x0003f800000 (00003c00000) | 0x0001f800000 (0000e200000)
+Bit: 28 | 1/2 | 0x0003aa00000 (00004000000) | 0x0002aa00000 (0000b600000)
+Bit: 30 | 2/2 | 0x0003aa00000 (00004000000) | 0x0007aa00000 (0002e600000)
+Bit: 28 | 2/2 | 0x00037a00000 (00004400000) | 0x00027a00000 (00005200000)
+Bit: 31 | 2/2 | 0x0016ae00000 (00000e00000) | 0x001eae00000 (00039000000)
+Bit: 29 | 2/2 | 0x0016c200000 (00002800000) | 0x0014c200000 (0007d200000)
+
+Measuring Bit 06 Adjacent Address Pair 000Measuring Bit 06 Adjacent Address Pair 001Measuring Bit 07 Adjacent Address Pair 000Measuring Bit 07 Adjacent Address Pair 001Measuring Bit 08 Adjacent Address Pair 000Measuring Bit 08 Adjacent Address Pair 001Measuring Bit 09 Adjacent Address Pair 000Measuring Bit 09 Adjacent Address Pair 001Measuring Bit 10 Adjacent Address Pair 000Measuring Bit 10 Adjacent Address Pair 001Measuring Bit 11 Adjacent Address Pair 000Measuring Bit 11 Adjacent Address Pair 001Measuring Bit 12 Adjacent Address Pair 000Measuring Bit 12 Adjacent Address Pair 001Measuring Bit 13 Adjacent Address Pair 000Measuring Bit 13 Adjacent Address Pair 001Measuring Bit 14 Adjacent Address Pair 000Measuring Bit 14 Adjacent Address Pair 001Measuring Bit 15 Adjacent Address Pair 000Measuring Bit 15 Adjacent Address Pair 001Measuring Bit 16 Adjacent Address Pair 000Measuring Bit 16 Adjacent Address Pair 001Measuring Bit 17 Adjacent Address Pair 000Measuring Bit 17 Adjacent Address Pair 001Measuring Bit 18 Adjacent Address Pair 000Measuring Bit 18 Adjacent Address Pair 001Measuring Bit 19 Adjacent Address Pair 000Measuring Bit 19 Adjacent Address Pair 001Measuring Bit 20 Adjacent Address Pair 000Measuring Bit 20 Adjacent Address Pair 001Measuring Bit 21 Adjacent Address Pair 000Measuring Bit 21 Adjacent Address Pair 001Measuring Bit 22 Adjacent Address Pair 000Measuring Bit 22 Adjacent Address Pair 001Measuring Bit 23 Adjacent Address Pair 000Measuring Bit 23 Adjacent Address Pair 001Measuring Bit 24 Adjacent Address Pair 000Measuring Bit 24 Adjacent Address Pair 001Measuring Bit 25 Adjacent Address Pair 000Measuring Bit 25 Adjacent Address Pair 001Measuring Bit 26 Adjacent Address Pair 000Measuring Bit 26 Adjacent Address Pair 001Measuring Bit 27 Adjacent Address Pair 000Measuring Bit 27 Adjacent Address Pair 001Measuring Bit 28 Adjacent Address Pair 000Measuring Bit 28 Adjacent Address Pair 001Measuring Bit 29 Adjacent Address Pair 000Measuring Bit 29 Adjacent Address Pair 001Measuring Bit 30 Adjacent Address Pair 000Measuring Bit 30 Adjacent Address Pair 001Measuring Bit 31 Adjacent Address Pair 000Measuring Bit 31 Adjacent Address Pair 001Measuring Bit 32 Adjacent Address Pair 000Measuring Bit 32 Adjacent Address Pair 001Measuring Bit 33 Adjacent Address Pair 000Measuring Bit 33 Adjacent Address Pair 001
+
+Bit 6 Addr 0
+0x00000000000 | Px0010fa00000 | 1 | 0x0001
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 6 Addr 1
+0x00000200000 | Px0016b600000 | 0 | 0x0001
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 7 Addr 0
+0x000000000c0 | Px0010fa000c0 | 2 | 0x0002
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 7 Addr 1
+0x000002000c0 | Px0016b6000c0 | 3 | 0x0002
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 8 Addr 0
+0x00000000140 | Px0010fa00140 | 0 | 0x0000
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 8 Addr 1
+0x00000200140 | Px0016b600140 | 1 | 0x0000
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 9 Addr 0
+0x00000000240 | Px0010fa00240 | 0 | 0x0000
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 9 Addr 1
+0x00000200240 | Px0016b600240 | 1 | 0x0000
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 10 Addr 0
+0x00000000440 | Px0010fa00440 | 1 | 0x0001
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 10 Addr 1
+0x00000200440 | Px0016b600440 | 0 | 0x0001
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 11 Addr 0
+0x00000000840 | Px0010fa00840 | 2 | 0x0002
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 11 Addr 1
+0x00000200840 | Px0016b600840 | 3 | 0x0002
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 12 Addr 0
+0x00000001040 | Px0010fa01040 | 1 | 0x0001
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 12 Addr 1
+0x00000201040 | Px0016b601040 | 0 | 0x0001
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 13 Addr 0
+0x00000002040 | Px0010fa02040 | 2 | 0x0002
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 13 Addr 1
+0x00000202040 | Px0016b602040 | 3 | 0x0002
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 14 Addr 0
+0x00000004040 | Px0010fa04040 | 1 | 0x0001
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 14 Addr 1
+0x00000204040 | Px0016b604040 | 0 | 0x0001
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 15 Addr 0
+0x00000008040 | Px0010fa08040 | 2 | 0x0002
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 15 Addr 1
+0x00000208040 | Px0016b608040 | 3 | 0x0002
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 16 Addr 0
+0x00000010040 | Px0010fa10040 | 1 | 0x0001
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 16 Addr 1
+0x00000210040 | Px0016b610040 | 0 | 0x0001
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 17 Addr 0
+0x00000020040 | Px0010fa20040 | 3 | 0x0003
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 17 Addr 1
+0x00000220040 | Px0016b620040 | 2 | 0x0003
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 18 Addr 0
+0x00000040040 | Px0010fa40040 | 1 | 0x0001
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 18 Addr 1
+0x00000240040 | Px0016b640040 | 0 | 0x0001
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 19 Addr 0
+0x00000080040 | Px0010fa80040 | 2 | 0x0002
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 19 Addr 1
+0x00000280040 | Px0016b680040 | 3 | 0x0002
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 20 Addr 0
+0x00000100040 | Px0010fb00040 | 3 | 0x0003
+0x00000000040 | Px0010fa00040 | 0 | 0x0000
+
+Bit 20 Addr 1
+0x00000300040 | Px0016b700040 | 2 | 0x0003
+0x00000200040 | Px0016b600040 | 1 | 0x0000
+
+Bit 21 Addr 0
+0x00000e00000 | Px0016ae00000 | 1 | 0x0002
+0x00000600000 | Px0016ac00000 | 3 | 0x0000
+
+Bit 21 Addr 1
+0x00001000000 | Px0016aa00000 | 2 | 0x0002
+0x00003000000 | Px0016a800000 | 0 | 0x0000
+
+Bit 22 Addr 0
+0x00000400000 | Px0016ba00000 | 1 | 0x0003
+0x00002a00000 | Px0016be00000 | 2 | 0x0000
+
+Bit 22 Addr 1
+0x00000e00000 | Px0016ae00000 | 1 | 0x0003
+0x00001000000 | Px0016aa00000 | 2 | 0x0000
+
+Bit 23 Addr 0
+0x00000200000 | Px0016b600000 | 0 | 0x0002
+0x00002a00000 | Px0016be00000 | 2 | 0x0000
+
+Bit 23 Addr 1
+0x00001000000 | Px0016aa00000 | 2 | 0x0002
+0x00001a00000 | Px0016a200000 | 0 | 0x0000
+
+Bit 24 Addr 0
+0x00000400000 | Px0016ba00000 | 1 | 0x0003
+0x00001000000 | Px0016aa00000 | 2 | 0x0000
+
+Bit 24 Addr 1
+0x00000e00000 | Px0016ae00000 | 1 | 0x0003
+0x00002a00000 | Px0016be00000 | 2 | 0x0000
+
+Bit 25 Addr 0
+0x00000400000 | Px0016ba00000 | 1 | 0x0001
+0x00001e00000 | Px00169a00000 | 0 | 0x0000
+
+Bit 25 Addr 1
+0x00000800000 | Px0016fa00000 | 2 | 0x0001
+0x00001800000 | Px0016da00000 | 3 | 0x0000
+
+Bit 26 Addr 0
+0x00000200000 | Px0016b600000 | 0 | 0x0003
+0x00000a00000 | Px0016f600000 | 3 | 0x0000
+
+Bit 26 Addr 1
+0x00000400000 | Px0016ba00000 | 1 | 0x0003
+0x00000800000 | Px0016fa00000 | 2 | 0x0000
+
+Bit 27 Addr 0
+0x00000200000 | Px0016b600000 | 0 | 0x0001
+0x000bd000000 | Px00163600000 | 1 | 0x0000
+
+Bit 27 Addr 1
+0x00000800000 | Px0016fa00000 | 2 | 0x0001
+0x00003400000 | Px00167a00000 | 3 | 0x0000
+
+Bit 28 Addr 0
+0x00004000000 | Px0003aa00000 | 1 | 0x0003
+0x0000b600000 | Px0002aa00000 | 2 | 0x0000
+
+Bit 28 Addr 1
+0x00004400000 | Px00037a00000 | 0 | 0x0003
+0x00005200000 | Px00027a00000 | 3 | 0x0000
+
+Bit 29 Addr 0
+0x00003c00000 | Px0003f800000 | 3 | 0x0002
+0x0000e200000 | Px0001f800000 | 1 | 0x0000
+
+Bit 29 Addr 1
+0x00002800000 | Px0016c200000 | 2 | 0x0002
+0x0007d200000 | Px0014c200000 | 0 | 0x0000
+
+Bit 30 Addr 0
+0x00000e00000 | Px0016ae00000 | 1 | 0x0001
+0x000b6a00000 | Px0012ae00000 | 0 | 0x0000
+
+Bit 30 Addr 1
+0x00004000000 | Px0003aa00000 | 1 | 0x0001
+0x0002e600000 | Px0007aa00000 | 0 | 0x0000
+
+Bit 31 Addr 0
+0x00000e00000 | Px0016ae00000 | 1 | 0x0002
+0x00039000000 | Px001eae00000 | 3 | 0x0000
+
+Bit 31 Addr 1
+0x00000e00000 | Px0016ae00000 | 1 | 0x0002
+0x00039000000 | Px001eae00000 | 3 | 0x0000
+
+Bit 32 Addr 0
+0x00000000000 | Px0010fa00000 | 1 | 0x0001
+0x0001f800000 | Px0000fa00000 | 0 | 0x0000
+
+Bit 32 Addr 1
+0x00000400000 | Px0016ba00000 | 1 | 0x0001
+0x0001c400000 | Px0006ba00000 | 0 | 0x0000
+
+Bit 33 Addr 0
+0x00000200000 | Px0016b600000 | 0 | 0x0003
+0x000d9e00000 | Px0036b600000 | 3 | 0x0000
+
+Bit 33 Addr 1
+0x00001000000 | Px0016aa00000 | 2 | 0x0003
+0x000d9c00000 | Px0036aa00000 | 1 | 0x0000
+
+Bit: 06 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 07 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 08 | Total: 000 | Count: 00 | ID_Rounded: 0x0 | ID: -nan
+Bit: 09 | Total: 000 | Count: 00 | ID_Rounded: 0x0 | ID: -nan
+Bit: 10 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 11 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 12 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 13 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 14 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 15 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 16 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 17 | Total: 006 | Count: 02 | ID_Rounded: 0x3 | ID: 3.000000
+Bit: 18 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 19 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 20 | Total: 006 | Count: 02 | ID_Rounded: 0x3 | ID: 3.000000
+Bit: 21 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 22 | Total: 006 | Count: 02 | ID_Rounded: 0x3 | ID: 3.000000
+Bit: 23 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 24 | Total: 006 | Count: 02 | ID_Rounded: 0x3 | ID: 3.000000
+Bit: 25 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 26 | Total: 006 | Count: 02 | ID_Rounded: 0x3 | ID: 3.000000
+Bit: 27 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 28 | Total: 006 | Count: 02 | ID_Rounded: 0x3 | ID: 3.000000
+Bit: 29 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 30 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 31 | Total: 004 | Count: 02 | ID_Rounded: 0x2 | ID: 2.000000
+Bit: 32 | Total: 002 | Count: 02 | ID_Rounded: 0x1 | ID: 1.000000
+Bit: 33 | Total: 006 | Count: 02 | ID_Rounded: 0x3 | ID: 3.000000
+
+The following XOR reduction map can be used to get the sequence ID of an address
+int xor_map[34] = {0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 1, 2, 1, 2, 1, 2, 1, 3, 1, 2, 3, 2, 3, 2, 3, 1, 3, 1, 3, 2, 1, 2, 1, 3};
+
+The following mask can be used to get the sequence ID of an address
+uint64_t mask[2] = {0x035f575440ULL, 0x02b5faa880ULL};
+
+Showing the XOR bits for each bit of the address to find the sequence ID
+ID0 = A06⊕ A10⊕ A12⊕ A14⊕ A16⊕ A17⊕ A18⊕ A20⊕ A22⊕ A24⊕ A25⊕ A26⊕ A27⊕ A28⊕ A30⊕ A32⊕ A33
+ID1 = A07⊕ A11⊕ A13⊕ A15⊕ A17⊕ A19⊕ A20⊕ A21⊕ A22⊕ A23⊕ A24⊕ A26⊕ A28⊕ A29⊕ A31⊕ A33
+
+Showing ID mapping split into binary (MSB->LSB) (with the bits belonging to cache line index stripped)
+ID0 = |▄▄ ▄ ▄▄▄▄▄ ▄ ▄ ▄▄▄ ▄ ▄ ▄   ▄|
+ID1 = |▄ ▄ ▄▄ ▄ ▄▄▄▄▄▄ ▄ ▄ ▄ ▄   ▄ |
+
+No master sequence, number of processor cores is a power of 2.
+
+Testing first 128 cache lines starting from address 0x0:
+0123 0123 0123 0123 1032 1032 1032 1032 2301 2301 2301 2301 3210 3210 3210 3210 1032 1032 1032 1032 0123 0123 0123 0123 3210 3210 3210 3210 2301 2301 2301 2301 
+
+Testing found slice mapping function with some random values:
+Phys Addr: 0x280cb4567 | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x1d75b23c6 | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x26afc9869 | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x270934873 | Calc Slice: 2 | Real Slice: 2
+Phys Addr: 0x29b90dc51 | Calc Slice: 0 | Real Slice: 0
+Phys Addr: 0x059895cff | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x04a68944a | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x2651558ec | Calc Slice: 2 | Real Slice: 2
+Phys Addr: 0x0600e1f29 | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x213887ccd | Calc Slice: 0 | Real Slice: 0
+Phys Addr: 0x1f61b58ba | Calc Slice: 2 | Real Slice: 2
+Phys Addr: 0x2307ed7ab | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x07d3141f2 | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x203d71efb | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x2ac62a9e3 | Calc Slice: 2 | Real Slice: 2
+Phys Addr: 0x29da5e146 | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x232ff007c | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x2523062c2 | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x020c00854 | Calc Slice: 0 | Real Slice: 0
+Phys Addr: 0x2283127f8 | Calc Slice: 0 | Real Slice: 0
+Phys Addr: 0x16936231b | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x071d6e9e8 | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x00fd0cde7 | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x2730f438d | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x0572e0f76 | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x1d992255a | Calc Slice: 3 | Real Slice: 3
+Phys Addr: 0x001bcf92e | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x0196d7263 | Calc Slice: 1 | Real Slice: 1
+Phys Addr: 0x3f43cc233 | Calc Slice: 2 | Real Slice: 2
+Phys Addr: 0x04cefd79f | Calc Slice: 0 | Real Slice: 0
+Phys Addr: 0x203c7c4c9 | Calc Slice: 2 | Real Slice: 2
+Phys Addr: 0x28048079a | Calc Slice: 3 | Real Slice: 3
+
+
