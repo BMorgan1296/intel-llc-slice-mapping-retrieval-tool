@@ -7,7 +7,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-
 //////////////////////////////////////////////////////////////////////////////////////////
 
 int get_msb(uint64_t n)
@@ -45,26 +44,6 @@ uint64_t count_bits(uint64_t n)
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
-
-// https://github.com/cgvwzq/evsets/blob/master/browser/virt_to_phys.c
-// void print_slice_6700KF_mask(uint64_t address, int slice)
-// {
-//     int proc = 2; //4 core therefore 2 bits
-//     uint64_t found_slice = 0;
-//     uint64_t mask[2] = {0x035f575440ULL, 0x06b5faa880ULL};
-//     switch (proc)
-//     {
-//         case 3:
-//             found_slice = (found_slice << 1) | (uint64_t)(count_bits(mask[2] & address) % 2);
-//         case 2:
-//             found_slice = (found_slice << 1) | (uint64_t)(count_bits(mask[1] & address) % 2); //We use this as I don't have an 8 core machine
-//         case 1:
-//             found_slice = (found_slice << 1) | (uint64_t)(count_bits(mask[0] & address) % 2);
-//         default:
-//         break;
-//     }
-//     printf("0x%011lx | %d | %ld\n", address, slice, found_slice);
-// }
 
 uint64_t calculate_xor_reduction_with_map(uint64_t addr, int *xor_map, int map_bits)
 {
@@ -142,8 +121,6 @@ slice_t example_addrs_9850H[1024] = {
     {0x22bc5c7a8,4},
 };
 
-
-
 int main()
 {
     //The following XOR reduction map can be used to get the slice index or sequence ID of an address
@@ -189,7 +166,4 @@ int main()
                                           seq_id,
                                           calc_slice);
     }
-
-
-
 }
