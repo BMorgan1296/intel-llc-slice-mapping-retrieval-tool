@@ -89,6 +89,7 @@ uint64_t calculate_xor_reduction(uint64_t addr, int xor_map[ADDR_BITS]);
 void find_master_sequence(adj_addr_t *adj, uint8_t *mem, uint64_t len, int16_t *master_sequence, uint64_t seq_len, int xor_map[ADDR_BITS]);
 
 int calculate_address_slice(uint64_t paddr, int16_t *master_sequence, uint64_t seq_len, int xor_map[ADDR_BITS]);
+
 //////////////////////////////////////////////////////////////////////////////////////
 
 #endif //UNCORE_ADDRESS_MAP_H

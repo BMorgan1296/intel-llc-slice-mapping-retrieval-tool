@@ -47,9 +47,9 @@ int main(int argc, char const *argv[])
 		for (int s = 0; s < NUM_SEQUENCES; ++s)
 		{
 			//Ignore 0xBADBAD
-			if(seq_data[s].id != 0xBADBAD && seq_data[s].id > max_seq_len)
+			if(seq_data[s].xor_op != 0xBADBAD && seq_data[s].xor_op > max_seq_len)
 			{
-				max_seq_len = seq_data[s].id;
+				max_seq_len = seq_data[s].xor_op;
 			}
 		}
 
