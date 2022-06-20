@@ -136,6 +136,7 @@ int measure_slice_accesses(uncore_perfmon_t *u, uint8_t *mem, uint64_t len, uint
 		{
 			//Collect data for later zscore calculation
 			data[s] = (double)u->results[s].total/(double)UNCORE_PERFMON_SAMPLES;
+			//printf("%f\n", data[s]);
 
 			//None of these values help us, reset.
 			if(data[s] >= 2.0 || data[s] <= 0.0)
@@ -154,6 +155,7 @@ int measure_slice_accesses(uncore_perfmon_t *u, uint8_t *mem, uint64_t len, uint
 				all_zeroes++;
 			}
 		}
+		//putchar('\n');
 		//Check if we got all zeroes, therefore no CBos experienced CLFLUSHes
 		if(all_zeroes == u->num_cbo_ctrs)
 		{
