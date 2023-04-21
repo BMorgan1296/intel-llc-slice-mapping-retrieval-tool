@@ -22,6 +22,8 @@ is_power_of_two()
 	fi
 }
 
+make get_num_slices
+
 #CPU Cores info
 CORES=$(grep -c ^processor /proc/cpuinfo)
 HT=$(lscpu | grep Thread | awk '{print $4}')
@@ -80,20 +82,21 @@ elif [[ $1 = "--get" ]]; then
 		echo "Could not create hugepages, check system settings. Exiting."
 		exit 0
 	fi
-	SEQ_LEN=128
-	# is_power_of_two $CORES
-	# if [[ $? -eq 1 ]]; then
-	# 	echo "Sequence length is 1 due to power of 2"
-	# 	SEQ_LEN=1
-	# else
-	# 	echo "Finding sequence length"
-	# 	#Compile
-	# 	sudo make clean
-	# 	sudo make view_slice_mapping OPS="-DNUM_SEQUENCES=64 -DCORES=$CORES -DHT=$HT -DNUM_THREADS=$NUM_THREADS -DRAM=$RAM -DADDR_BITS=$ADDR_BITS -DUSEHUGEPAGE -DL1D=$L1D -DL1_ASSOCIATIVITY=$L1_ASSOCIATIVITY -DL1_CACHELINE=$L1_CACHELINE -DL2=$L2 -DL2_ASSOCIATIVITY=$L2_ASSOCIATIVITY -DL2_CACHELINE=$L2_CACHELINE -DL3_CACHELINE=$L3_CACHELINE"
-	# 	#Getting SEQ_LEN by parsing view_slice_mapping
-	# 	SEQ_LEN=$(sudo chrt -r 1 sudo taskset -c 0-$(($CORES-1)) ./view_slice_mapping | grep "Max Sequence Length:" | awk '{print $4}')
-	# 	echo "Sequence length found: $SEQ_LEN"
-	# fi
+	SEQ_LEN=1
+	N_SLICES=$(sudo ./get_num_slices)
+	is_power_of_two $N_SLICES
+	if [[ $? -eq 1 ]]; then
+		echo "Sequence length is 1 due to slice power of 2"
+		SEQ_LEN=1
+	else
+		echo "Finding sequence length"
+		#Compile
+		sudo make clean
+		sudo make view_slice_mapping OPS="-DNUM_SEQUENCES=64 -DCORES=$CORES -DHT=$HT -DNUM_THREADS=$NUM_THREADS -DRAM=$RAM -DADDR_BITS=$ADDR_BITS -DUSEHUGEPAGE -DL1D=$L1D -DL1_ASSOCIATIVITY=$L1_ASSOCIATIVITY -DL1_CACHELINE=$L1_CACHELINE -DL2=$L2 -DL2_ASSOCIATIVITY=$L2_ASSOCIATIVITY -DL2_CACHELINE=$L2_CACHELINE -DL3_CACHELINE=$L3_CACHELINE"
+		#Getting SEQ_LEN by parsing view_slice_mapping
+		SEQ_LEN=$(sudo chrt -r 1 sudo taskset -c 0-$(($CORES-1)) ./view_slice_mapping | grep "Max Sequence Length:" | awk '{print $4}')
+		echo "Sequence length found: $SEQ_LEN"
+	fi
 
 	#Run with every core available
 	#Reduce RAM until we don't fail on allocating memory, starting from 15/16 of total system RAM and reducing this by 1/16 each time until it works
