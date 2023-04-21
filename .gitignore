@@ -3,4 +3,4 @@
 *.o
 uncore_address_map
 view_slice_mapping
-
+get_slice_mapping
