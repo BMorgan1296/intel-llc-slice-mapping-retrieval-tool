@@ -29,6 +29,6 @@ See `example_hash_function_usage.c` to observe code samples utilising the return
 We show how to use the two main formats provided to calculate the XOR-reduction using either an xor map or group of masks. Following this is code to determine the slice index of addresses on a 6-core machine, utilising the XOR-reduction stage as well as master sequence.
 
 ## To Do
-* 12th Generation Alder Lake processors.
+* ~~12th Generation Alder Lake processors.~~
 * Xeon processors (requires modification to `perfcounters` interface).
 * Generalise this across all processors by reconciling linear and non-linear hash functions.
